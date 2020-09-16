@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --reddish-color: rgb(216, 44, 44);
+    --orangred-color: rgb(228, 108, 108);
+    --gray-color: rgba(51, 49, 49, 0.6);
+}
+body {
+    font-size: 1rem;
+    line-height: 1.2;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    border-bottom: 0.2rem solid var(--reddish-color);
+    border-top: 0.2rem solid var(--reddish-color);
+}
+
+a.navbar-brand {
+    font-size: 2rem;
+    color: var(--reddish-color) !important;
+}
+
+a.navbar-brand:hover {
+    color: var(--orangred-color) !important;
+}
+
+.admin-profile-pic {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.padding {
+    padding: 2rem 1rem 1rem 2rem;
+}
+
+h4.admin-name, ul.navbar-nav li a {
+    color: rgba(255,255,255,.7);
+}
+
+div.dropdown-divider {
+    border-color: rgba(255,255,255,.2) !important;
+}
+
+ul.navbar-nav li a:hover {
+    color: var(--orangred-color);
+}
+
+ul.navbar-nav li {
+    margin-bottom: 0.6rem;
+}
+
+.padding-4 {
+    padding-left: 2rem;
+}
+
+.breadcrumb-link {
+    color: var(--orangred-color);
+    font-size: 1.5rem;
+}
+
+.breadcrumb-sublink {
+    color: var(--gray-color);
+    font-size: 1.2rem;
+}
+
+.breadcrumb-divider {
+    font-size: 1.5rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    margin-top: 0.8rem;
+}
+
+.breadcrumb-link:hover, .breadcrumb-sublink:hover {
+    color: var(--orangred-color);
+}
+
+div.card-col > i.fa-home, i.fa-users,div.card-col > i.fa-envelope, i.fa-exclamation-triangle {
+    color: var(--orangred-color);
+    transform: rotate(-45deg);
+}
+
+.card-footer {
+    padding: 0.3rem;
+    background-color: #222121;
+    
+}
+
+.card-footer a {
+    margin-bottom: 0 !important;
+}
+
+.card-footer a, .card-footer i {
+    color: var(--orangred-color);
+}
+
+.icon {
+    position: relative;
+}
+
+.icon::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 10px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #ef5350;
+}
+
+@media (min-width: 250px) and (max-width:600px) {
+    div.collapseOne > ul.navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 1rem
+        
+    }
+}
