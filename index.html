@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Glozzom</title>
+
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <!-- raleway font css -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- header starts from here -->
+    <header id="header">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    Glozzom
+                </a>
+
+                <!-- collapse button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapse"
+                    aria-expanded="false" aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- collapse div -->
+                <div class="collapse collapseOne navbar-collapse" id="collapse">
+                    <ul class="navbar-nav ml-auto d-flex align-items-center">
+                        <li class="nav-item mr-3"><a class="nav-link" href="#"><i class="fas fa-search"></i></a></li>
+                        <li class="nav-item mr-3"><a class="nav-link" href="#"><i class="fas icon fa-bell"></i></a></li>
+                        <li class="nav-item mr-3"><a class="nav-link" href="#"><i class="fas icon fa-comment"></i></a>
+                        </li>
+                        <li class="nav-item mr-5"><a class="nav-link" href="#"><img src="assets/image/team-1.jpg"
+                                    alt="admin-profile-pic" class="img-fluid admin-profile-pic"></a></li>
+                        <li class="nav-item"><a class="nav-link" data-target="#logoutModal" data-toggle="modal"><i
+                                    class="fas fa-sign-out-alt"></i> Sign Out</a></li>
+
+                    </ul> <!-- 1st navbar nav ends here -->
+                </div> <!-- collapse div ends here-->
+
+            </div> <!-- container div ends here -->
+        </nav> <!-- nav ends here -->
+    </header>
+    <!-- header ends here -->
+
+    <main id="main">
+        <div class="row  no-gutters">
+
+            <div class="col-lg-2 col-md-2 col-sm-12 col-12 text-white-50 bg-dark">
+                <div class="admin-info padding  d-flex justify-content-between ">
+                    <img src="assets/image/team-1.jpg" class="img-fluid admin-profile-pic" alt="admin-pic">
+                    <h4 class="admin-name">John Doe</h4>
+                </div> <!-- admin info ends here -->
+
+                <div class="dropdown-divider"></div>
+
+                <ul class="navbar-nav padding-4">
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-home mr-4"></i> Dashboard</a>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-signal mr-4"></i> App</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-envelope mr-4"></i> Mailbox</a>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-desktop mr-4"></i> UI
+                            Elements</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-cogs mr-4"></i> Performance</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav pb-4 padding-4">
+                    <p class="font-weight-bold text-uppercase">Forms And Tables</p>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-home mr-4"></i> Dashboard</a>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-signal mr-4"></i> App</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-envelope mr-4"></i> Mailbox</a>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-desktop mr-4"></i> UI
+                            Elements</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-cogs mr-4"></i> Performance</a>
+                    </li>
+                </ul>
+
+            </div> <!-- col lg 2 ends here -->
+
+            <div class="col-lg-10">
+                <div class="breadcrumb">
+                    <a href="#" class="breadcrumb-link btn">Dashboard</a> <span class="breadcrumb-divider">/</span>
+                    <a href="#" class="breadcrumb-sublink btn my-auto">My Dashboard</a>
+                </div>
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-3 mx-auto mb-3 col-md-4 col-sm-12 col-10">
+                            <div class="card bg-dark">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-lg-4 card-col">
+                                            <i class="fas fa-home fa-3x"></i>
+                                        </div> <!-- col lg 4 ends here -->
+
+                                        <div class="col-lg-8 text-white">
+                                            <h3><span class="order-count">20</span> <span
+                                                    class="text-uppercase">New</span> Orders</h3>
+                                        </div> <!-- col lg 8 ends here -->
+                                    </div> <!-- row ends here -->
+                                </div> <!-- card body ends here -->
+                                <div class="card-footer d-flex justify-content-between">
+                                    <a href="#" class="btn">Learn More</a>
+                                    <a class="refresh-btn btn my-auto" href="#"><i
+                                            class="fas fa-sync-alt"></i></span></a>
+                                </div>
+                            </div> <!-- card ends here -->
+                        </div> <!-- col lg 3 ends here -->
+
+                        <div class="col-lg-3 mx-auto mb-3 col-md-4 col-sm-12 col-10">
+                            <div class="card bg-danger">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-lg-4 card-col">
+                                            <i class="fas fa-users fa-3x"></i>
+                                        </div> <!-- col lg 4 ends here -->
+
+                                        <div class="col-lg-8 text-white">
+                                            <h3><span class="users-count">20</span> <span
+                                                    class="text-uppercase">New</span> Users</h3>
+                                        </div> <!-- col lg 8 ends here -->
+                                    </div> <!-- row ends here -->
+                                </div> <!-- card body ends here -->
+                                <div class="card-footer d-flex justify-content-between">
+                                    <a href="#" class="btn">Learn More</a>
+                                    <a class="refresh-btn btn my-auto" href="#"><i
+                                            class="fas fa-sync-alt"></i></span></a>
+                                </div>
+                            </div> <!-- card ends here -->
+                        </div> <!-- col lg 3 ends here -->
+
+                        <div class="col-lg-3 mx-auto mb-3 col-md-4 col-sm-12 col-10">
+                            <div class="card bg-primary">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-lg-4 card-col">
+                                            <i class="fas fa-envelope fa-3x"></i>
+                                        </div> <!-- col lg 4 ends here -->
+
+                                        <div class="col-lg-8 text-white">
+                                            <h3><span class="message-count">20</span> <span
+                                                    class="text-uppercase">New</span> <small>Messages</small></h3>
+                                        </div> <!-- col lg 8 ends here -->
+                                    </div> <!-- row ends here -->
+                                </div> <!-- card body ends here -->
+                                <div class="card-footer d-flex justify-content-between">
+                                    <a href="#" class="btn">Learn More</a>
+                                    <a class="refresh-btn btn my-auto" href="#"><i
+                                            class="fas fa-sync-alt"></i></span></a>
+                                </div>
+                            </div> <!-- card ends here -->
+                        </div> <!-- col lg 3 ends here -->
+
+                        <div class="col-lg-3 mx-auto mb-3 col-md-4 col-sm-12 col-10">
+                            <div class="card bg-success">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-lg-4 card-col">
+                                            <i class="fas fa-exclamation-triangle fa-3x"></i>
+                                        </div> <!-- col lg 4 ends here -->
+
+                                        <div class="col-lg-8 text-white">
+                                            <h3><span class="complaints-count">10</span> <span
+                                                    class="text-uppercase">New</span> <small>Complaints</small></h3>
+                                        </div> <!-- col lg 8 ends here -->
+                                    </div> <!-- row ends here -->
+                                </div> <!-- card body ends here -->
+                                <div class="card-footer d-flex justify-content-between">
+                                    <a href="#" class="btn">Learn More</a>
+                                    <a class="refresh-btn btn my-auto" href="#"><i
+                                            class="fas fa-sync-alt"></i></span></a>
+                                </div>
+                            </div> <!-- card ends here -->
+                        </div> <!-- col lg 3 ends here -->
+
+                    </div> <!-- row ends here -->
+
+                    <div class="row mt-5">
+                        <div class="col-lg-4 mx-auto mb-3 col-md-6 col-sm-12 col-10">
+                            <div class="card bg-warning">
+                                <div class="card-header">
+                                    <h4 class="card-title">Performance</h4>
+                                </div> <!-- card header ends here -->
+
+                                <div class="card-body">
+                                    <canvas id="line-chart"></canvas>
+                                </div>
+                            </div> <!-- card ends here -->
+                        </div> <!-- col lg 4 ends here -->
+
+                        <div class="col-lg-4 mx-auto mb-3 col-md-6 col-sm-12 col-10">
+                            <div class="card bg-danger">
+                                <div class="card-header">
+
+                                    <h4 class="card-title">Charts</h4>
+
+                                </div> <!-- card header ends here -->
+
+                                <div class="card-body">
+                                    <canvas id="doughnut-chart"></canvas>
+                                </div>
+                            </div> <!-- card ends here -->
+                        </div> <!-- col lg 4 ends here -->
+
+                        <div class="col-lg-4 mx-auto mb-3 col-md-6 col-sm-12 col-10">
+                            <div class="card bg-light">
+                                <div class="card-header">
+
+                                    <h4 class="card-title">Sales</h4>
+
+                                </div> <!-- card header ends here -->
+
+                                <div class="card-body">
+                                    <canvas id="bar-chart"></canvas>
+                                </div>
+                            </div> <!-- card ends here -->
+                        </div> <!-- col lg 4 ends here -->
+                    </div> <!-- row div ends here -->
+
+
+
+                </div> <!-- container div ends here -->
+            </div> <!-- col lg 10 ends here -->
+        </div> <!-- row ends here -->
+
+
+
+
+
+
+    </main>
+
+    <footer id="footer" class="bg-dark py-3">
+          <div class="container">
+                  <div class="row">
+                      <div class="col-lg-12 text-white-50 text-center">
+                          <p>Copyright &copy; Glozzom Admin Theme</p>
+                          <p>Designed By Talha Tariq</p>
+                      </div>
+                  </div>
+          </div> <!-- container ends here -->
+    </footer>
+
+    <div class="modal" tabindex="-1" id="logoutModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Logout</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Are You Sure? You Want To Logout?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger">Logout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <!-- bootstrap js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <!-- chart js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+
+    <!-- line js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/line-chart/2.0.28/LineChart.min.js"></script>
+
+    <!-- line chart -->
+    <script src="assets/js/line.js"></script>
+
+    <!-- bar js -->
+    <script src="assets/js/bar.js"></script>
+
+    <!-- doughnut js -->
+    <script src="assets/js/doughnut.js"></script>
+</body>
+
+</html>
